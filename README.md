@@ -1,6 +1,8 @@
-# AngularApp
+# Pet Directory -- an Angular app
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.0. This project was also created during the course "Learning Angular" by Ray Villalobos. This project also uses lots of bootstrap for styling.
+
+See [here]() for the site on netify!
 
 ## To run server
 
