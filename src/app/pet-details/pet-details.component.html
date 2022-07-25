@@ -1,0 +1,12 @@
+<div class="container mt-3">
+    <div class="row justify-content-center">
+      <div class="col-sm-4 col-lg-3">
+        <img class="img-fluid rounded" [src] ="'./assets/images/' + pet.codename + '.png'" alt="Picture of a {{pet.breed.toLowerCase()}}">
+      </div>
+      <div class="col-sm-8 col-lg-4">
+        <h2 class="mt-3 mt-sm-0 mb-0">{{pet.name}}</h2>
+        <h4 class="mt-0">{{pet.breed}}</h4>
+        <p>{{pet.bio}}</p>
+      </div>
+    </div>
+</div>

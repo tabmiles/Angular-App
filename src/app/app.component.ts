@@ -9,10 +9,12 @@ import {HttpClient} from '@angular/common/http';
 export class AppComponent implements OnInit{
   query: string;
   pets: any;
+  currentPet: any;
 
   showPet(item: any) {
     this.query = item.name;
     item.highlight = !item.highlight;
+    this.currentPet = item;
   }
 
   constructor(private http: HttpClient ) {

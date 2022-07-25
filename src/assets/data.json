@@ -3,18 +3,18 @@
       "name": "Coconut",
       "codename": "chihuahua",
       "breed": "Chihuahua",
-      "age": "6"
+      "age": "6 years old"
     },
     {
       "name": "Ollie",
       "codename": "boxer",
       "breed": "Boxer",
-      "age": "8"
+      "age": "8 years old"
     },
     {
       "name": "Sofie",
       "codename": "dachshund",
       "breed": "Dachshund",
-      "age": "9"
+      "age": "9 years old"
     }
 ]

@@ -4,10 +4,16 @@ import { FormsModule } from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
 
 import { AppComponent } from './app.component';
+import { PetsItemsComponent } from './pets-items/pets-items.component';
+import { SearchPetsPipe } from './search-pets.pipe';
+import { PetDetailsComponent } from './pet-details/pet-details.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PetsItemsComponent,
+    SearchPetsPipe,
+    PetDetailsComponent
   ],
   imports: [
     BrowserModule,
