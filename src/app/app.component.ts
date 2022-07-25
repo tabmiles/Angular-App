@@ -1,36 +1,25 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import {HttpClient} from '@angular/common/http';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
+export class AppComponent implements OnInit{
   query: string;
   pets: any;
 
-  showPet(item: { name: string; }) {
+  showPet(item: any) {
     this.query = item.name;
+    item.highlight = !item.highlight;
   }
 
-  constructor() {
+  constructor(private http: HttpClient ) {
     this.query = '';
-    this.pets = [
-      {
-        "name": "Coconut",
-        "breed": "Chihuahua",
-        "age": "6"
-      },
-      {
-        "name": "Ollie",
-        "breed": "Boxer",
-        "age": "8"
-      },
-      {
-        "name": "Sofie",
-        "breed": "Dachshund",
-        "age": "9"
-      }
-    ];
+  }
+
+  ngOnInit(): void {
+      this.http.get<Object>('../assets/data.json').subscribe(data => {this.pets = data;});
   }
 }
