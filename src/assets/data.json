@@ -3,18 +3,36 @@
       "name": "Coconut",
       "codename": "chihuahua",
       "breed": "Chihuahua",
-      "age": "6 years old"
+      "age": "6 years old",
+      "bio": "Dogs like Coconut love as much as they shiver. Their favorite passtime is eating and sleeping. Their superpower would be sonic barks -- which is surprising because they are so small!"
     },
     {
       "name": "Ollie",
       "codename": "boxer",
       "breed": "Boxer",
-      "age": "8 years old"
+      "age": "5 years old",
+      "bio": "Dogs like Ollie are loyal and caring. Their favorite passtime is barking at anyone who dares pass the window. Their superpower would be super strength because they are all muscle no fluff."
     },
     {
       "name": "Sofie",
       "codename": "dachshund",
       "breed": "Dachshund",
-      "age": "9 years old"
+      "age": "9 years old",
+      "bio": "Dogs like Sofie are cuddly and sweet. Their favorite passtime is sleeping in the sunlight on their own pillow. Their superpower would be super speed -- how cute would their hair be at super speed?!"
+    },
+    {
+      "name": "Yoshi",
+      "codename": "corgi",
+      "breed": "Corgi",
+      "age": "1.7 years old",
+      "bio": "Dogs like Yoshi are playful and loyal. Their favorite passtime is going on a walk with their owner. Their superpower would be flight which they would do all the time because they would go much faster than they would on their stubby legs!"
+    }
+    ,
+    {
+      "name": "Mr Brioche",
+      "codename": "poodle",
+      "breed": "Toy Poodle",
+      "age": "8 years old",
+      "bio": "Dogs like Mr Brioche have beautiful fur and can strut their stuff well. Their favorite passtime is judging everyone. Their superpower would be reading minds so that they can know everyone's deepest darkest secrets. Obviously they'd be a villan."
     }
 ]

@@ -5,7 +5,7 @@
         <h3 class="mb-0">Pet Directory</h3>
         <div class="form-group">
           <div class="form-label"
-          *ngIf="query"><strong>For:</strong>
+          *ngIf="query"><strong>Looking for:</strong>
             {{ query }}
           </div>
           <input class="form-control mt-2" type="text"
@@ -18,7 +18,7 @@
   <div class="position-absolute container" style="left: 0; z-index:10">
     <div class="row justify-content-center">
       <div class="col-sm-10 col-md-8 col-lg-6 col-xl-5">
-        <div class="list-group" *ngIf="query">
+        <div class="list-group" *ngIf="query || !currentPet">
           <a href="#" class="list-group-item list-group-item-action flex-column align-items-start"
             *ngFor="let pet of (pets | searchPets: query)"
             (click)="showPet(pet); query=''"
