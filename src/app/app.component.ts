@@ -6,5 +6,31 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'An Example Angular App';
+  query: string;
+  pets: any;
+
+  showPet(item: { name: string; }) {
+    this.query = item.name;
+  }
+
+  constructor() {
+    this.query = '';
+    this.pets = [
+      {
+        "name": "Coconut",
+        "breed": "Chihuahua",
+        "age": "6"
+      },
+      {
+        "name": "Ollie",
+        "breed": "Boxer",
+        "age": "8"
+      },
+      {
+        "name": "Sofie",
+        "breed": "Dachshund",
+        "age": "9"
+      }
+    ];
+  }
 }
